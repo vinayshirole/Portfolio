@@ -3,7 +3,7 @@ import { Mail, Github, Linkedin } from 'lucide-react';
 
 const Connect: React.FC = () => {
   return (
-    <div className="flex justify-center mt-6 mb-6 text-pink-500">
+    <div id="webEnding" className="flex justify-center mt-6 mb-6 text-pink-500">
       <div className="flex gap-6 md:gap-12">
         <a
           href="mailto:vinayshirole07@gmail.com"

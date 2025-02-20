@@ -46,8 +46,8 @@ const Navbar: React.FC = () => {
         <a href="#about" className="hover:text-pink-500 text-white text-lg">About</a>
         <a href="#skills" className="hover:text-pink-500 text-white text-lg">Skills</a>
         <a href="#projects" className="hover:text-pink-500 text-white text-lg">Projects</a>
-        <a href="#contact" className="hover:text-pink-500 text-white text-lg">Contact</a>
-        <a href="public/Vinay_Shirole_Resume.pdf" className="hover:text-pink-500 text-white text-lg">Resume</a>
+        <a href="#webEnding" className="hover:text-pink-500 text-white text-lg">Contact</a>
+        <a href="pubic/Vinay_Shirole_Resume.pdf" className="hover:text-pink-500 text-white text-lg">Resume</a>
       </div>
 
       {/* Mobile Menu */}
@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
           <a href="#about" className="hover:text-pink-500 text-white text-lg" onClick={() => setMenuOpen(false)}>About</a>
           <a href="#skills" className="hover:text-pink-500 text-white text-lg" onClick={() => setMenuOpen(false)}>Skills</a>
           <a href="#projects" className="hover:text-pink-500 text-white text-lg" onClick={() => setMenuOpen(false)}>Projects</a>
-          <a href="#contact" className="hover:text-pink-500 text-white text-lg" onClick={() => setMenuOpen(false)}>Contact</a>
+          <a href="#webEnding" className="hover:text-pink-500 text-white text-lg" onClick={() => setMenuOpen(false)}>Contact</a>
           <a href="public/Vinay_Shirole_Resume.pdf" className="hover:text-pink-500 text-white text-lg" onClick={() => setMenuOpen(false)}>Resume</a>
         </div>
       )}
