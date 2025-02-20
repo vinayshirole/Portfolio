@@ -66,7 +66,7 @@ function App() {
         <Globes />
       </div>     */}
       {/* Footer */}
-      <footer className="py-6 text-center text-sm text-white-500">
+      <footer className="py-6 text-center text-sm text-white-500 bg-grey-800">
         <p>© {new Date().getFullYear()} Vinay Shirole. All Rights Reserved.</p>
       </footer>
     </div>
