@@ -39,7 +39,7 @@ const LandingPage: React.FC = () => {
         <div className="w-60 h-60 md:w-80 md:h-80 relative mb-6">
           <div className="absolute inset-0 bg-pink-500 rounded-3xl md:rounded-12xl transform rotate-0"></div>
           <img 
-            src="pubic/Profile.webp" 
+            src="/public/Profile.webp" 
             alt="Profile"
             className="absolute inset-0 w-full h-full object-cover rounded-3xl md:rounded-12xl transform -rotate-6 hover:rotate-0 transition-transform duration-300"
           />
