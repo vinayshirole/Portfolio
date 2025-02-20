@@ -27,7 +27,7 @@ const LandingPage: React.FC = () => {
             repeat={Infinity}
           />
         </h1>
-        <a href="pubic/Vinay_Shirole_Resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-block mt-4">
+        <a href="/public/Vinay_Shirole_Resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-block mt-4">
           <button className="bg-pink-500 text-white px-6 py-3 rounded-lg hover:bg-pink-600 transition">
             Get my resume
           </button>
@@ -39,7 +39,7 @@ const LandingPage: React.FC = () => {
         <div className="w-60 h-60 md:w-80 md:h-80 relative mb-6">
           <div className="absolute inset-0 bg-pink-500 rounded-3xl md:rounded-12xl transform rotate-0"></div>
           <img 
-            src="/public/Profile.png" 
+            src="/Profile.png" 
             alt="Profile"
             className="absolute inset-0 w-full h-full object-cover rounded-3xl md:rounded-12xl transform -rotate-6 hover:rotate-0 transition-transform duration-300"
           />

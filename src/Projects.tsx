@@ -5,25 +5,25 @@ const projects = [
     {
       title: 'Music Recommendation System',
       description: 'The Music Recommendation System is designed to provide personalized song recommendations to users based on their listening history, preferences, and behavior by leveraging machine learning algorithms and collaborative filtering techniques.',
-      image: 'pubic/Music Recommendation.webp',
+      image: '/Music Recommendation.webp',
       codeLink: 'https://github.com/vinayshirole/Music-Recommendation-System'
     },
     {
       title: 'InsightWise',
       description: "A cloud-based inventory management web application designed to help businesses of all sizes streamline their stock control, reduce waste, and optimize supply chain efficiency thereby providing the tools to track, manage, and analyze inventory in real time.",
-      image: 'pubic/Inventory.webp',
+      image: '/Inventory.webp',
       codeLink: 'https://github.com/vinayshirole/InsightWise'
     },
     {
       title: 'Cloud-Based Airline Satisfaction Prediction',
       description: 'The project focuses on analyzing and predicting airline customer satisfaction using machine learning models. It is built on Google Cloud Platform (GCP) and utilizes Python-based ML models running in Jupyter Notebook on a virtual machine (VM) to process and analyze more than 1 million customer reviews',
-      image: 'pubic/Airplane.webp',
+      image: '/Airplane.webp',
       // codeLink: '#'
     },
     {
       title: 'Flood Risk Prediction Using CNN',
       description: 'We are developing a Convolutional Neural Network (CNN) model to predict areas likely to be affected in the event of a flood. The model leverages satellite images from NOAA along with geospatial features such as landscape and elevation to enhance prediction accuracy.',
-      image: 'pubic/GeoAI.webp',
+      image: '/GeoAI.webp',
       // codeLink: '#'
     }
   ];
