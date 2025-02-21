@@ -27,7 +27,7 @@ const LandingPage: React.FC = () => {
             repeat={Infinity}
           />
         </h1>
-        <a href="/Vinay_Shirole_Resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-block mt-4">
+        <a href="/Vinay Shirole Resume.pdf" target="_blank" rel="noopener noreferrer" className="inline-block mt-4">
           <button className="bg-pink-500 text-white px-6 py-3 rounded-lg hover:bg-pink-600 transition">
             Get my resume
           </button>
