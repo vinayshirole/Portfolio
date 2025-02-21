@@ -47,7 +47,7 @@ const Navbar: React.FC = () => {
         <a href="#skills" className="hover:text-pink-500 text-white text-lg">Skills</a>
         <a href="#projects" className="hover:text-pink-500 text-white text-lg">Projects</a>
         <a href="#webEnding" className="hover:text-pink-500 text-white text-lg">Contact</a>
-        <a href="/Vinay_Shirole_Resume.pdf" className="hover:text-pink-500 text-white text-lg">Resume</a>
+        <a href="/Vinay Shirole Resume.pdf" className="hover:text-pink-500 text-white text-lg">Resume</a>
       </div>
 
       {/* Mobile Menu */}
@@ -57,7 +57,7 @@ const Navbar: React.FC = () => {
           <a href="#skills" className="hover:text-pink-500 text-white text-lg" onClick={() => setMenuOpen(false)}>Skills</a>
           <a href="#projects" className="hover:text-pink-500 text-white text-lg" onClick={() => setMenuOpen(false)}>Projects</a>
           <a href="#webEnding" className="hover:text-pink-500 text-white text-lg" onClick={() => setMenuOpen(false)}>Contact</a>
-          <a href="/public/Vinay Shirole Resume.pdf" className="hover:text-pink-500 text-white text-lg" onClick={() => setMenuOpen(false)}>Resume</a>
+          <a href="/Vinay Shirole Resume.pdf" className="hover:text-pink-500 text-white text-lg" onClick={() => setMenuOpen(false)}>Resume</a>
         </div>
       )}
     </nav>
